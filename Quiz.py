@@ -71,7 +71,7 @@ else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -5')
-if ans9=='d' or ans9!="D"
+if ans9=='d' or ans9!="D":
   score+=5
 else:
   score-=2
