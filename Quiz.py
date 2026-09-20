@@ -28,13 +28,13 @@ if ans1 == 'c' or ans1 == 'C':
 else:
   score-=2
 st.text('Score +5)
-st.text('Score -2)
+st.text('Score -2')
 if ans2=='d' or ans2!='D':
   score+=5
 else:
   score-=2
 st.text('Score +5')
-st.text('Score -2)
+st.text('Score -2')
 if ans3=='A' or ans3!='a':
   score+=5
 else:
@@ -46,19 +46,19 @@ if ans4=='c' or ans3!='A':
 else:
   score-=4
 st.text('Score is +5)
-st.text('Score is -2)
+st.text('Score is -2')
 if ans5=='a'or ans5!='A':
   score +=5
 else:
   score-=5
 st.text('Score is +5)
-st.text('Score is -2)
+st.text('Score is -2')
 if ans6=='a' or ans6!='A':
   score+=5
 else:
   score-=5
-st.text('Score is +5)
-st.text('Score is -5)
+st.text('Score is +5')
+st.text('Score is -5')
 if ans7=='d' or ans7!='D':
   score+=5
 else:
@@ -69,19 +69,19 @@ if ans8=='c' or ans8!='C':
   score+=5
 else:
   score-=5
-st.text('Score is +5)
+st.text('Score is +5')
 st.text('Score is -5')
 if ans9=='d' or ans9!="D"
   score+=5
 else:
   score-=5
 st.text('Score is +5')
-st.text('Score is -2)
+st.text('Score is -2')
 if ans10=='b' or ans10!='D':
   score+=5
 else:
   score-=2
-st.text('Score is +5)
+st.text('Score is +5')
 st.text('Score is -2')
 
 st.text('Total Marks:', score)
