@@ -23,61 +23,61 @@ st.text('Q10. Which is the highest mountain the world?\na.Nile Everest b.Mount E
 ans10=st.text_input('Enter your choice...')
 
 score=0
-if ans1 == 'c' or ans1 == 'C':
+if ans1.lower() == 'c':
   score+=5
 else:
   score-=2
 st.text('Score +5')
 st.text('Score -2')
-if ans2=='d' or ans2!='D':
+if ans2.lower()=='d':
   score+=5
 else:
   score-=2
 st.text('Score +5')
 st.text('Score -2')
-if ans3=='A' or ans3!='a':
+if ans3.lower()=='A'
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans4=='c' or ans3!='A':
+if ans4.lower()=='c':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans5=='a'or ans5!='A':
+if ans5.lower()=='a':
   score +=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans6=='a' or ans6!='A':
+if ans6.lower()=='a':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans7=='d' or ans7!='D':
+if ans7.lower()=='d':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans8=='c' or ans8!='C':
+if ans8.lower()=='c':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -5')
-if ans9=='d' or ans9!="D":
+if ans9.lower()=='d':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans10=='b' or ans10!='D':
+if ans10.lower()=='b':
   score+=5
 else:
   score-=2
