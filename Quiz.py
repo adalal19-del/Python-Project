@@ -35,7 +35,7 @@ else:
   score-=2
 st.text('Score +5')
 st.text('Score -2')
-if ans3=='A'
+if ans3=='A':
   score+=5
 else:
   score-=2
