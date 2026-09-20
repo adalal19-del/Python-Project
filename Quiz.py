@@ -7,3 +7,4 @@ if age >=18 and age<=58:
   st.balloons()
 else:
   st.write('You are not eligible')
+  st.down()
