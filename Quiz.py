@@ -4,7 +4,7 @@ st.write('Hello, I am Atul, Welcome to my Quiz Zone. Hope You like the game. you
 st.text('Q1. What is the first alphabet of English? \na.B    b.Y\nc.A    d.E\n')
 ans1 = st.text_input("enter your choice....")
 st.text('Q2. Who is the National Animal of India? \na.Bear    b.Giraffe  \nc.Lion    d.Tiger\n')
-ans2 = st.text_input("enter your choice....")
+ans2 = st.text_input("enter your choice for Q2....")
 st.text('Q3. Who is the National Bird of INdia? \na.Peacock    b.Nightingale   \nc.Hen        d.Crow\n')
 ans3 = st.text_input("enter your choice....")
 st.text('Q4. How many continents are there in world? \na.4    b.12   \nc.7    d.9\n')
