@@ -84,4 +84,4 @@ else:
 st.text('Score is +5')
 st.text('Score is -2')
 
-st.text('Total Marks:', score)
+st.number('Total Marks:', score)
