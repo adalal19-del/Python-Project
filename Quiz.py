@@ -45,7 +45,7 @@ if ans4=='c' or ans3!='A':
   score+=5
 else:
   score-=4
-st.text('Score is +5)
+st.text('Score is +5')
 st.text('Score is -2')
 if ans5=='a'or ans5!='A':
   score +=5
