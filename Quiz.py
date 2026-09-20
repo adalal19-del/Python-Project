@@ -2,82 +2,82 @@ import streamlit as st
 
 st.write('Hello, I am Atul, Welcome to my Quiz Zone. Hope You like the game. you may please proceed further for my gaming.')
 st.text('Q1. What is the first alphabet of English? \na.B    b.Y\nc.A    d.E\n')
-ans1 = st.text_input("enter your choice....")
+ans1 = st.text_input("enter your choice....").lower()
 st.text('Q2. Who is the National Animal of India? \na.Bear    b.Giraffe  \nc.Lion    d.Tiger\n')
-ans2 = st.text_input("enter your choice....")
+ans2 = st.text_input("enter your choice....").lower()
 st.text('Q3. Who is the National Bird of INdia? \na.Peacock    b.Nightingale   \nc.Hen        d.Crow\n')
-ans3 = st.text_input("enter your choice....")
+ans3 = st.text_input("enter your choice....").lower()
 st.text('Q4. How many continents are there in world? \na.4    b.12   \nc.7    d.9\n')
-ans4 = st.text_input("enter your choice....")
+ans4 = st.text_input("enter your choice....").lower()
 st.text('Q5. What is the capital of india? \na.Delhi    b.Mumbai  \nc.Kolkata  d.Chennai\n')
-ans5=st.text_input('Enter your choice...')
+ans5=st.text_input('Enter your choice...').lower()
 st.text('Q6. Who is the Prime Minister of India? \na.Narendra Modi  b.Rahul Gandhi  \nc.Amit Shah      d.Yogi Adityanath\n')
-ans6=st.text_input('Enter your choice...')
+ans6=st.text_input('Enter your choice...').lower()
 st.text('Q7. What was the old name of Mumbai?\na.Delhi  b.Maharashtra\nc.Kota  d.Bombay\n')
-ans7=st.text_input('Enter Your choice...')
+ans7=st.text_input('Enter Your choice...').lower()
 st.text('Q8. Who wrote the national anthem?\na Mahatma Gandhi b.Lata Mangeshkar.  \nc.Ravindranath Tagore  d. Kishore Kumar\n')
-ans8=st.text_input('Enter Your choice...')
+ans8=st.text_input('Enter Your choice...').lower()
 st.text('Q9. What is the capital of India?\na.Delhi b. Mumbai  \nc.Gujarat  d. New Delhi')
-ans9=st.text_input('Enter your choice...')
+ans9=st.text_input('Enter your choice...').lower()
 st.text('Q10. Which is the highest mountain the world?\na.Nile Everest b.Mount Everest  \n.c Kent Everest  d. North Everest')
-ans10=st.text_input('Enter your choice...')
+ans10=st.text_input('Enter your choice...').lower()
 
 score=0
-if ans1.lower() == 'c':
+if ans1 == 'c':
   score+=5
 else:
   score-=2
 st.text('Score +5')
 st.text('Score -2')
-if ans2.lower()=='d':
+if ans2=='d':
   score+=5
 else:
   score-=2
 st.text('Score +5')
 st.text('Score -2')
-if ans3.lower()=='A'
+if ans3=='A'
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans4.lower()=='c':
+if ans4=='c':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans5.lower()=='a':
+if ans5=='a':
   score +=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans6.lower()=='a':
+if ans6=='a':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans7.lower()=='d':
+if ans7=='d':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans8.lower()=='c':
+if ans8=='c':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -5')
-if ans9.lower()=='d':
+if ans9=='d':
   score+=5
 else:
   score-=2
 st.text('Score is +5')
 st.text('Score is -2')
-if ans10.lower()=='b':
+if ans10=='b':
   score+=5
 else:
   score-=2
