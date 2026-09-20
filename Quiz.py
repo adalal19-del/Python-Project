@@ -27,7 +27,7 @@ if ans1 == 'c' or ans1 == 'C':
   score+=5
 else:
   score-=2
-st.text('Score +5)
+st.text('Score +5')
 st.text('Score -2')
 if ans2=='d' or ans2!='D':
   score+=5
