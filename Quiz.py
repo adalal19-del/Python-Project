@@ -90,7 +90,7 @@ if score>45:
   st.balloons()
 elif score>=30:
   st.write('Average')
-eliif score>=20:
+elif score>=20:
   st.write('Poor')
 else:
   st.write('Better Luck Next Time')
