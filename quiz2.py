@@ -11,12 +11,12 @@ for i in range(len(Q)):
   ans=st.text_input('Enter your choice...')
   user_answer.append(ans)
   if Correct_Answer[i]==ans:
-    score=+5
+    score+=5
     st.snow()
   else:
     score-=2
     st.write('wrong')
-  st.write('\nYour total score=",score\n')
+  st.write('\nYour total score=',score\n)
   st.write('\nQuiz Completed\n')
   st.write('\nThank you for participate in the quiz contest\n')
   
