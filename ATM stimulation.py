@@ -10,7 +10,7 @@ if in1=="1":
   st.write('Welcome to Saving Bank Account')
   name=st.text_input('Enter Your Name...')
   pin=st.number_input('Enter Your Pin...')
-  if (name=='Jitendra Singh or name='Rohit') or pin==pin:
+  if (name=='Jitendra or name='Rohit') or pin==pin:
       st.write('Welcome to Saving Account, please select your choice below')
       st.write('1. Bank Balance\n2.Withdrawal\n3.Deposit\4.Exit')
       in2=st.text_input('Enter Your Choice...')
