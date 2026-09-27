@@ -86,4 +86,4 @@ st.write('Score is -2')
 
 st.write('Total Marks:', score)
 st.write('Quiz Completed')
-st.balloons()
+#st.balloons() 
