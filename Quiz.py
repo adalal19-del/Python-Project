@@ -31,8 +31,10 @@ else:
   st.write('Wrong')
 if ans2=='d':
   score+=5
+  st.ice()
 else:
   score-=2
+  st.write('wrong')
 if ans3=='a':
   score+=5
 else:
@@ -67,4 +69,5 @@ else:
   score-=2
 
 st.write('Total Marks:', score)
+
 
