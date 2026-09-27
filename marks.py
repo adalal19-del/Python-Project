@@ -1,4 +1,4 @@
-input streamlit as st
+import streamlit as st
 total = 0
 M=[86,78,98,95,90]
 for i in range [0,5]:
