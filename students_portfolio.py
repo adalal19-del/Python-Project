@@ -1,6 +1,6 @@
 import streamlit as st
 Name=st.write('Enter Your Name..')
-RN=st.number(Enter Your RN..)
+RN=st.write('Enter Your RN..')
 math=st.number(Enter Your Marks..)
 eng=st.number(Enter Your Marks..)
 hindi=st.number(Enter Your Marks..)
