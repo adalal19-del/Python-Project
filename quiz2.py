@@ -9,7 +9,7 @@ score=0
 for i in range(len(Q)):
   st.write(Q[i])
   st.write(Options[i])
-  ans=st.text_input('Enter your choice...',key=[i])
+  ans=st.text_input('Enter your choice...',key=[i]).lower()
   user_answer.append(ans)
   if Correct_Answer[i]==ans:
     score+=5
