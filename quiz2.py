@@ -16,6 +16,7 @@ for i in range(len(Q)):
     st.snow()
   else:
     score-=2
+    st.write('wrong')
 if score ==20:
   st.write('Excellent')
   st.balloons()
