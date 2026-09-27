@@ -14,7 +14,7 @@ for i in range(len(Q)):
     score=+5
     st.snow()
   else:
-    score-=2:
+    score-=2
     st.write('wrong')
   st.write('\nYour total score=",score'\n)
   st.write('\nQuiz Completed\n')
