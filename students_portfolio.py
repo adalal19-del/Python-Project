@@ -10,12 +10,12 @@ sst=st.number_input('Enter SST Marks..')
 AI=st.number_input('Enter AI Marks..')
 sum=math+eng+hindi+science+sst+AI
 st.write('Total Marks:',sum)
-percentage=sum/6
+percentage=(sum/480)*80
 st.write('Total percentage:',percentage)
-if percentage>=90:
+if percentage>=75:
   st.write('Excellent')
   st.balloons()
-elif percentage>=75:
+elif percentage>=60:
   st.write('Average')
   st.snow()
 elif percentage>=50:
