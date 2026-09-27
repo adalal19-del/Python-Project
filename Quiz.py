@@ -31,7 +31,7 @@ if ans2=='d':
   score+=5
 else:
   score-=2
-if ans3=='A':
+if ans3=='a':
   score+=5
 else:
   score-=2
