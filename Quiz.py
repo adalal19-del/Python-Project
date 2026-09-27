@@ -1,17 +1,17 @@
 import streamlit as st
 
 st.write('Hello, I am Atul, Welcome to my Quiz Zone. Hope You like the game. you may please proceed further for my gaming.')
-st.write('Q1. What is the first alphabet of English? \na.B    b.Y\nc.A    d.E\n')
+st.write('Q1. What is the first alphabet of English?\na.B    b.Y\nc.A    d.E\n')
 ans1 = st.text_input("enter your choice for 1....")
-st.write('Q2. Who is the National Animal of India? \na.Bear    b.Giraffe  \nc.Lion    d.Tiger\n')
+st.write('Q2. Who is the National Animal of India?\na.Bear    b.Giraffe  \nc.Lion    d.Tiger\n')
 ans2 = st.text_input("enter your choice for 2....")
-st.write('Q3. Who is the National Bird of INdia? \na.Peacock    b.Nightingale   \nc.Hen        d.Crow\n')
+st.write('Q3. Who is the National Bird of INdia?\na.Peacock    b.Nightingale   \nc.Hen        d.Crow\n')
 ans3 = st.text_input("enter your choice for 3....")
-st.write('Q4. How many continents are there in world? \na.4    b.12   \nc.7    d.9\n')
+st.write('Q4. How many continents are there in world?\na.4    b.12   \nc.7    d.9\n')
 ans4 = st.text_input("enter your choice for 4....")
-st.write('Q5. What is the capital of india? \na.Delhi    b.Mumbai  \nc.Kolkata  d.Chennai\n')
+st.write('Q5. What is the capital of india?\na.Delhi    b.Mumbai  \nc.Kolkata  d.Chennai\n')
 ans5=st.text_input('Enter your choice for 5...')
-st.write('Q6. Who is the Prime Minister of India? \na.Narendra Modi  b.Rahul Gandhi  \nc.Amit Shah      d.Yogi Adityanath\n')
+st.write('Q6. Who is the Prime Minister of India?\na.Narendra Modi  b.Rahul Gandhi  \nc.Amit Shah      d.Yogi Adityanath\n')
 ans6=st.text_input('Enter your choice for 6...')
 st.write('Q7. What was the old name of Mumbai?\na.Delhi  b.Maharashtra\nc.Kota  d.Bombay\n')
 ans7=st.text_input('Enter Your choice for 7...')
@@ -25,7 +25,7 @@ ans10=st.text_input('Enter your choice for 10...')
 score=0
 if ans1 == 'c' or ans1=='C':
   score+=5
-  st.balloons()
+  st.snow()
 else:
   score-=2
   st.write('Wrong')
@@ -37,37 +37,64 @@ else:
   st.write('wrong')
 if ans3=='a':
   score+=5
+  st.snow()
 else:
   score-=2
+  st.write('wrong')
 if ans4=='c':
   score+=5
+  st.snow()
 else:
   score-=2
+  st.write('wrong')
 if ans5=='a':
   score +=5
+  st.snow()
 else:
   score-=2
+  st.write('wrong')
 if ans6=='a':
   score+=5
+  st.snow()
 else:
   score-=2
+  st.write('wrong')
 if ans7=='d':
   score+=5
+  st.snow()
 else:
   score-=2
+  st.write('wrong')
 if ans8=='c':
   score+=5
+  st.snow()
 else:
   score-=2
+  st.write('wrong')
 if ans9=='d':
   score+=5
+  st.snow()
 else:
   score-=2
+  st.write('wrong')
 if ans10=='b':
   score+=5
+  st.snow()
 else:
   score-=2
+  st.write('wrong')
 
 st.write('Total Marks:', score)
+if score>45:
+  st.write('Excellent')
+  st.balloons()
+if score>=30:
+  st.write('Average')
+if score>=20:
+  st.write('Poor')
+else:
+  st.write('Better Luck Next Time')
+st.write('Quiz Completed')
+  
 
 
