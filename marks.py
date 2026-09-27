@@ -5,4 +5,4 @@ for i in range (5):
   total+=M[i]
   st.write('Total Marks:',total)
   percentage=(total/5)
-  st.write('Total Percentage:",percentage)
+  st.write("Total Percentage:",percentage)
