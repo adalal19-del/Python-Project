@@ -29,55 +29,55 @@ if ans1 == 'c' or ans1=='C':
 else:
   score-=2
   st.write('Wrong')
-if ans2=='d':
+if ans2=='d' or ans2=='D':
   score+=5
   st.snow()
 else:
   score-=2
   st.write('wrong')
-if ans3=='a':
+if ans3=='a' or ans3=='A':
   score+=5
   st.snow()
 else:
   score-=2
   st.write('wrong')
-if ans4=='c':
+if ans4=='c' or ans4=='C':
   score+=5
   st.snow()
 else:
   score-=2
   st.write('wrong')
-if ans5=='a':
+if ans5=='a' or ans5=='A':
   score +=5
   st.snow()
 else:
   score-=2
   st.write('wrong')
-if ans6=='a':
+if ans6=='a' or ans6=='A':
   score+=5
   st.snow()
 else:
   score-=2
   st.write('wrong')
-if ans7=='d':
+if ans7=='d' or ans7=='D':
   score+=5
   st.snow()
 else:
   score-=2
   st.write('wrong')
-if ans8=='c':
+if ans8=='c' or ans8=='C':
   score+=5
   st.snow()
 else:
   score-=2
   st.write('wrong')
-if ans9=='d':
+if ans9=='d' or ans9=='D':
   score+=5
   st.snow()
 else:
   score-=2
   st.write('wrong')
-if ans10=='b':
+if ans10=='b' or ans10=='B':
   score+=5
   st.snow()
 else:
