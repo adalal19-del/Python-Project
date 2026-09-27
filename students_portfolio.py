@@ -1,7 +1,7 @@
 import streamlit as st
 st.write('...Student Portfolio...')
-Name=st.write_input('Enter Your Name..')
-RN=st.write_input('Enter Your RN..')
+Name=st.text_input('Enter Your Name..')
+RN=st.text_input('Enter Your RN..')
 math=st.number_input('Enter Your Marks..',max_value==100)
 eng=st.number_input('Enter Your Marks..',max_value==100)
 hindi=st.number_input('Enter Your Marks..',max_value==100)
