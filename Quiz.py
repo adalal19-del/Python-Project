@@ -65,4 +65,3 @@ else:
   score-=2
 
 st.write('Total Marks:', score)
-st.write('Quiz Completed')
