@@ -17,6 +17,7 @@ if percentage>=90:
   st.balloons()
 elif percentage>=75:
   st.write('Average')
+  st.snow()
 elif percentage>=50:
   st.write('Fair')
 else:
