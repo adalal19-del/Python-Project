@@ -23,7 +23,7 @@ st.write('Q10. Which is the highest mountain the world?\na.Nile Everest b.Mount 
 ans10=st.text_input('Enter your choice for 10...')
 
 score=0
-if ans1 == 'c':
+if ans1 == 'c' and ans1!='C':
   score+=5
   st.balloons()
 else:
@@ -67,3 +67,4 @@ else:
   score-=2
 
 st.write('Total Marks:', score)
+
