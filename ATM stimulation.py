@@ -21,11 +21,13 @@ if in1=="1":
     bal=bal-amt
     st.write('You have successfully withdraw:', amt)
     st.write('Your remaining balance:',bal)
+    st.snow()
   elif in2=='3':
     amt=st.number_input('Please mention amount to deposite...')
     bal+=amt
     st.write('You have successfully deposited the amount:',amt)
     st.write('Your overall balance:', bal)
+    st.balloons()
   elif in2=='4':
     st.write('Thank you for banking with us, you have a nice day')
   else:
