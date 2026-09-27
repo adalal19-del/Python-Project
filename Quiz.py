@@ -1,8 +1,7 @@
 import streamlit as st
 
 st.write('Hello, I am Atul, Welcome to my Quiz Zone. Hope You like the game. you may please proceed further for my gaming.')
-st.write('Q1. What is the first alphabet of English?
-\na.B    b.Y\nc.A    d.E\n')
+st.write('Q1. What is the first alphabet of English?\na.B    b.Y\nc.A    d.E\n')
 ans1 = st.text_input("enter your choice for 1....")
 st.write('Q2. Who is the National Animal of India?\na.Bear    b.Giraffe  \nc.Lion    d.Tiger\n')
 ans2 = st.text_input("enter your choice for 2....")
@@ -90,9 +89,9 @@ if score>45:
   st.write('Excellent')
   st.balloons()
 elif score>=30:
-  st.write('Average')
+  st.write('Good')
 elif score>=20:
-  st.write('Poor')
+  st.write('Average')
 else:
   st.write('Better Luck Next Time')
 st.write('Quiz Completed')
