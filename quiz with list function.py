@@ -5,7 +5,18 @@ Options=['a.B    b.Y\nc.A    d.E','a.Bear   b.Giraffe\nc.Lion   d.Tiger','a.Peac
 Correct_Answer=['c','d','a','c']
 user_answer=[]
 score=0
-for i in range(len(q)):
-  st.text(Q[i])
-  st.text(O[i])
-  ans=st.write('Enter 
+for i in range(len(Q)):
+  st.write(Q[i])
+  st.write(Options[i])
+  ans=st.text_input('Enter your choice...').lower()
+  user_answer.append(ans)
+  if Correct_Answer[i]==ans:
+    score=+5
+    st.snow()
+  else:
+    score-=2:
+    st.write('wrong')
+  st.write('\nYour total score=",score'\n)
+  st.write('\nQuiz Completed\n')
+  st.write('\nThank you for participate in the quiz contest\n')
+  
