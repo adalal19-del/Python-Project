@@ -17,7 +17,6 @@ for i in range(len(Q)):
   else:
     score-=2
     st.write('wrong')
-st.write("Your total score=",score)
 if score ==20:
   st.write('Excellent')
   st.balloons()
@@ -28,5 +27,7 @@ elif score>10:
   st.write('Poor')
 else:
   st.write('Better Luck Next Time')
+st.write('Name:',name)
+st.write('Your Total Score:',score)
 st.write('\nQuiz Completed\n')
 st.write('\nThank you for your participation in the quiz contest\n')
