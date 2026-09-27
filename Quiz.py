@@ -7,6 +7,8 @@ if ans1=="c":
   st.balloons()
 st.write('Q2. Who is the National Animal of India? \na.Bear    b.Giraffe  \nc.Lion    d.Tiger\n')
 ans2 = st.text_input("enter your choice for 2....")
+if ans1=="d":
+  st.balloons()
 st.write('Q3. Who is the National Bird of INdia? \na.Peacock    b.Nightingale   \nc.Hen        d.Crow\n')
 ans3 = st.text_input("enter your choice for 3....")
 st.write('Q4. How many continents are there in world? \na.4    b.12   \nc.7    d.9\n')
