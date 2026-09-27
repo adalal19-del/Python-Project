@@ -16,7 +16,9 @@ for i in range(len(Q)):
   else:
     score-=2
     st.write('wrong')
-  st.write('\nYour total score=,score\n')
-  st.write('\nQuiz Completed\n')
-  st.write('\nThank you for participate in the quiz contest\n')
+st.write('\nYour total score=,score\n')
+st.write('\nQuiz Completed\n')
+st.write('\nThank you for participate in the quiz contest\n')
+if score ==20:
+  st.balloons()
   
