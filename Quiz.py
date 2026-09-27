@@ -31,7 +31,7 @@ else:
   st.write('Wrong')
 if ans2=='d':
   score+=5
-  st.ice()
+  st.snow()
 else:
   score-=2
   st.write('wrong')
