@@ -13,11 +13,11 @@ st.write('Total Marks:',sum)
 percentage=sum/6
 st.write('Total percentage:',percentage)
 if percentage>=90:
-  st.write(Excellent)
+  st.write('Excellent')
   st.balloons()
 elif percentage>=75:
-  st.write(Average)
+  st.write('Average')
 elif percentage>=50:
-  st.write(Fair)
+  st.write('Fair')
 else:
-  st.write(Needs more practice)
+  st.write('Needs more practice')
