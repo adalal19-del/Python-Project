@@ -27,62 +27,42 @@ if ans1 == 'c':
   score+=5
 else:
   score-=2
-st.write('Score +5')
-st.write('Score -2')
 if ans2=='d':
   score+=5
 else:
   score-=2
-st.write('Score +5')
-st.write('Score -2')
 if ans3=='A':
   score+=5
 else:
   score-=2
-st.write('Score is +5')
-st.write('Score is -2')
 if ans4=='c':
   score+=5
 else:
   score-=2
-st.write('Score is +5')
-st.write('Score is -2')
 if ans5=='a':
   score +=5
 else:
   score-=2
-st.write('Score is +5')
-st.write('Score is -2')
 if ans6=='a':
   score+=5
 else:
   score-=2
-st.write('Score is +5')
-st.write('Score is -2')
 if ans7=='d':
   score+=5
 else:
   score-=2
-st.write('Score is +5')
-st.write('Score is -2')
 if ans8=='c':
   score+=5
 else:
   score-=2
-st.write('Score is +5')
-st.write('Score is -5')
 if ans9=='d':
   score+=5
 else:
   score-=2
-st.write('Score is +5')
-st.write('Score is -2')
 if ans10=='b':
   score+=5
 else:
   score-=2
-st.write('Score is +5')
-st.write('Score is -2')
 
 st.write('Total Marks:', score)
 st.write('Quiz Completed')
