@@ -88,9 +88,9 @@ st.write('Total Marks:', score)
 if score>45:
   st.write('Excellent')
   st.balloons()
-if score>=30:
+elif score>=30:
   st.write('Average')
-if score>=20:
+eliif score>=20:
   st.write('Poor')
 else:
   st.write('Better Luck Next Time')
