@@ -1,5 +1,6 @@
 import streamlit as st
 st.write('....Welcome to Quiz....')
+name=st.text_input('Enter Your Name...')
 Q=['Q1. WHat is the first alphabet of English?','Q2. Who is theNational Animal of INdia?','Q3. Who is the National Bird of India?','Q4. HOw many COntinents are there in world?']
 Options=['a.B    b.Y\nc.A    d.E','a.Bear   b.Giraffe\nc.Lion   d.Tiger','a.Peacock   b.Nightingale\nc.Hen     d.Crow','a.4    b.12\nc.7    d.9']
 Correct_Answer=['c','d','a','c']
@@ -17,8 +18,15 @@ for i in range(len(Q)):
     score-=2
     st.write('wrong')
 st.write("Your total score=",score)
-st.write('\nQuiz Completed\n')
-st.write('\nThank you for participate in the quiz contest\n')
 if score ==20:
+  st.write('Excellent')
   st.balloons()
-  
+elif score>15:
+  st.write('Average')
+  st.snow()
+elif score>10:
+  st.write('Poor')
+else:
+  st.write('Better Luck Next Time')
+st.write('\nQuiz Completed\n')
+st.write('\nThank you for your participation in the quiz contest\n')
