@@ -6,15 +6,15 @@ mensteam = []
 womensteam = []
 
 for i in range (5):
-    name = st.number_input('Enter Your Name..', key=i)
+    name = st.text_input('Enter Your Name..', key=i)
     age = st.number_input('Enter Your Age..', key=i+5)
     gender = st.text_input('Enter Your Gender..',key=i+10).lower()
     if age >= 18:
         st.success('Eligible')
         if gender == 'male':
-            mensteam.append(name[i])
+            mensteam.append(name)
         else:
-            womensteam.append(name[i])
+            womensteam.append(name)
         i+=1
     else:
         st.warning('Not Eligible')
