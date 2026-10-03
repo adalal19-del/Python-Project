@@ -5,7 +5,7 @@ bal=[100000,200000]
 pin=[1234,12345]
 fd_rd=[200000,300000]
 st.write('****Welcome to ATM Stimulation****')
-st.write('\nSaving Account\ndfd_rd')
+st.write('\n1.Saving Account\n2.fd_rd')
 choice=st.text_input('Enter your choice..')
 if in1=='1':
   st.write('Welcome to Saving Account')
