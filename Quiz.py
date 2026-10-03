@@ -23,7 +23,7 @@ st.write('Q10. Which is the highest mountain the world?\n\na.Nile Everest b.Moun
 ans10=st.text_input('Enter your choice for 10...')
 
 score=0
-if not ans1 or ans2 or ans3 or ans4 or ans5 or ans6 or ans7 or ans8 or ans9 or ans10:
+if not ans1 or not ans2 or not ans3 or not ans4 or not ans5 or not ans6 or not ans7 or not ans8 or not ans9 or not ans10:
   st.warning('Please answer all question before finalizing the score')
 else:
   if ans1 == 'c' or ans1=='C':
