@@ -27,3 +27,4 @@ else:
     st.warning('Incorrect Input')
 st.write('Men Team:', mensteam)
 st.write('Women Team:', womensteam)
+st.success('Criteria for both Male and Female completed successfully')
