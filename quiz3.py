@@ -28,7 +28,7 @@ else:
 if len(mensteam)==11 and len(womensteam)==11:
         st.write('Select criteria complete for both mens and womens team')
 else:
-        st.write('Not fulfill teh criteria and still awaiting both 11 and 11 team')
+        st.write('Not fulfill the criteria and still awaiting both 11 and 11 team')
 
 st.write('Mens Team:',mensteam)
 st.write('Female Team:',womensteam)
