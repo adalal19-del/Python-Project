@@ -4,7 +4,6 @@ st.write('Welcome to the Cricket Team Selection')
 
 mensteam = []
 womensteam = []
-gender = st.text_input('Enter Your Gender..').lower()
 st.write('Mens Team')
 for i in range (11):
         name = st.text_input('Enter Your Name..', key=i)
@@ -27,6 +26,7 @@ else:
     st.warning('Incorrect Input')
 if len(mensteam)==11 and len(womensteam)==11:
         st.write('Select criteria complete for both mens and womens team')
+        st.balloons()
 else:
         st.write('Not fulfill the criteria and still awaiting both 11 and 11 team')
 
