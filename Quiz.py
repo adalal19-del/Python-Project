@@ -94,6 +94,6 @@ else:
   elif score>=20:
     st.write('Average')
   else:
-    st.write('Better Luck Next Time')
+    st.warning('Better Luck Next Time')
 
 st.write('Quiz Completed')
