@@ -7,7 +7,7 @@ fd_rd=[200000,300000]
 st.topic('****Welcome to ATM Stimulation****')
 st.write('\nSaving Account\ndfd_rd')
 choice=st.text_input('Enter your choice..')
-if in1='1':
+if in1=='1':
   st.write('Welcome to Saving Account')
   name=st.write_input('Enter Your Name..')
   pin=st.number_input('Enter Your Pin..')
