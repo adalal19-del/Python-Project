@@ -13,7 +13,7 @@ if in1=='1':
   pins=st.number_input('Enter Your Pin..')
   if name in names:
     j=names.index(name)
-    if pins==pin[j]
+    if pin==pins[j]
       st.write('1. Deposit\n2.Balance in Account\n3.Withdrawal\n4.Exit')
       in2=st.write('Enter Your Choice...')
       if in2=='1':
