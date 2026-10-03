@@ -4,6 +4,8 @@ st.write('Welcome to the Cricket Team Selection')
 
 mensteam = []
 womensteam = []
+age=[]
+name=[]
 gender = st.text_input('Enter Your Gender..').lower()
 st.write('Mens Team')
 for i in range (11):
