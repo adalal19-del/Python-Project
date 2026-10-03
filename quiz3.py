@@ -6,18 +6,17 @@ age=st.number_input('Enter Your Age..')
 # Gender[male, female]
 mensteam=[]
 womensteam=[]
-if age>=18:
-  gender=st.text_input('Enter Your Gender..').lower()
-  st.success('Eligible')
-  if gender == 'male':
+for in range (0,5):
+  if age>=18:
+    gender=st.text_input('Enter Your Gender..').lower()
+    st.success('Eligible')
+    if gender == 'male':
     # j=name.index(name)
-    mensteam.append(name)
+      mensteam.append(name)
+    else:
+      womensteam.append(name)
   else:
-    womensteam.append(name)
-else:
-  st.warning('Not Eligible')
+    st.warning('Not Eligible')
 st.write('Mens Team:',mensteam)
 st.write('Womens Team:', womensteam)
-
-  
   
