@@ -11,7 +11,7 @@ for i in range (11):
         age = st.number_input('Enter Your Age..', key=i+11)
         if age >= 18:
                 st.success('Eligible')
-                mensteam.append([name, age, Male])
+                mensteam.append([name, age, 'Male'])
         else:
                 st.warning('Not Eligible')
 st.write('Female Team')
@@ -20,7 +20,7 @@ for i in range (11):
         age = st.number_input('Enter Your Age..', key=i+33)
         if age >= 18:
                 st.success('Eligible')
-                womensteam.append([name, age, Female])
+                womensteam.append([name, age, 'Female'])
         else:
                 st.warning('Not Eligibile')
 else:
