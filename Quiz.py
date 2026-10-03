@@ -27,8 +27,8 @@ if not ans1 or ans2 or ans3 or ans4 or ans5 or ans6 or ans7 or ans8 or ans9 or a
   st.warning('Please answer all question before finalizing the score')
 else:
   if ans1 == 'c' or ans1=='C':
-  score+=5
-  st.snow()
+    score+=5
+    st.snow()
   else:
     score-=2
     st.balloons()
