@@ -86,14 +86,16 @@ else:
   else:
     score-=2
     st.balloons()
-    st.write('Total Marks:', score)
-    if score>45:
-      st.write('Excellent')
-      st.balloons()
-    elif score>=30:
-      st.write('Good')
-    elif score>=20:
-      st.write('Average')
-    else:
-      st.write('Better Luck Next Time')
-  st.write('Quiz Completed')
+
+st.write('Total Marks:', score)
+  
+  # if score>45:
+  #     st.write('Excellent')
+  #     st.balloons()
+  #   elif score>=30:
+  #     st.write('Good')
+  #   elif score>=20:
+  #     st.write('Average')
+  #   else:
+  #     st.write('Better Luck Next Time')
+  # st.write('Quiz Completed')
