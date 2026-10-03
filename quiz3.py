@@ -8,8 +8,8 @@ womensteam = []
 for i in range (5):
     name = st.text_input('Enter Your Name..')
     age = st.number_input('Enter Your Age..')
+    gender = st.text_input('Enter Your Gender..').lower()
     if age >= 18:    
-        gender = st.text_input('Enter Your Gender..').lower()
         st.success('Eligible')
         if gender == 'male':
             mensteam.append(name[i])
