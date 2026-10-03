@@ -29,7 +29,7 @@ if in1='1':
           st.write('Successfully withdrawal amount:',amt2)
           st.write('Total balance:',bal[j])
       if in2=='4':
-          st.write('Thank you for banking with us)
+          st.write('Thank you for banking with us')
       else:
         st.write('Hope you have a good day')
   else:
