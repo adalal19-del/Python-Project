@@ -88,7 +88,7 @@ else:
   
   if score>45:
     st.write('Excellent')
-    st.success()
+    st.success('box')
   elif score>=30:
     st.write('Good')
   elif score>=20:
