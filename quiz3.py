@@ -16,8 +16,8 @@ if gender == 'male':
                         st.warning('Not Eligible')
 elif gender=='female':
         for i in range (10):
-                name = st.text_input('Enter Your Name..', key=i+12)
-                age = st.number_input('Enter Your Age..', key=i+15)
+                name = st.text_input('Enter Your Name..', key=i+20)
+                age = st.number_input('Enter Your Age..', key=i+31)
                 if age >= 18:
                         st.success('Eligible')
                         womensteam.append(name)
