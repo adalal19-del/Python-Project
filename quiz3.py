@@ -25,6 +25,10 @@ for i in range (11):
                 st.warning('Not Eligibile')
 else:
     st.warning('Incorrect Input')
-st.write('Men Team:', mensteam)
-st.write('Women Team:', womensteam)
-st.success('Criteria for both Male and Female completed successfully')
+if lens(manseam)==11 and lens(womensteam)==11:
+        st.write('Select criteria complete for both mens and womens team')
+else:
+        st.write('Not fulfill teh criteria and still awaiting both 11 and 11 team')
+
+st.write('Mens Team:',mensteam)
+st.write('Female Team:',womensteam)
