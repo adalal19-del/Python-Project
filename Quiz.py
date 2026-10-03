@@ -86,8 +86,7 @@ else:
   else:
     score-=2
     st.balloons()
-
-st.write('Total Marks:', score)
+  st.write('Total Marks:', score)
   
   # if score>45:
   #     st.write('Excellent')
