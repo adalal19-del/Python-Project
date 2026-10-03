@@ -6,7 +6,7 @@ age=st.number_input('Enter Your Age..')
 # Gender[male, female]
 mensteam=[]
 womensteam=[]
-for in range (0,5):
+for i in range (0,5):
   if age>=18:
     gender=st.text_input('Enter Your Gender..').lower()
     st.success('Eligible')
