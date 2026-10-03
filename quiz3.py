@@ -13,7 +13,6 @@ if age >= 18:
         if gender == 'male':
             mensteam.append(name)
         else:
-            gender == 'female':
             womensteam.append(name)
 else:
     st.warning('Not Eligible')
