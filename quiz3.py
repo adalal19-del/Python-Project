@@ -2,7 +2,7 @@ import streamlit as st
 st.write('Welcome to the Cricket Team Selection')
 name=st.text_input('Enter Your Name..')
 age=st.number_input('Enter Your Age..')
-# name[]
+name[]
 Gender[male, female]
 mensteam[]
 womensteam[]
