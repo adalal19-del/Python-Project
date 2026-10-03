@@ -1,6 +1,6 @@
 import streamlit as st
 
-name=['Jitendra','Rohit')
+name=['Jitendra','Rohit']
 bal=[100000,200000]
 pin=[1234,12345])
 fd_rd=[200000,300000]
