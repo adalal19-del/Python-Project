@@ -11,7 +11,7 @@ if age >= 18:
     for i in range (5):
         gender = st.text_input('Enter Your Gender..').lower()
         st.success('Eligible')
-        i+=1
+        i+=gender
         if gender == 'male':
             mensteam.append(name[i])
         else:
