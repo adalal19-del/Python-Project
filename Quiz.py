@@ -88,7 +88,7 @@ else:
   
   if score>45:
     st.write('Excellent')
-    st.balloons()
+    st.success()
   elif score>=30:
     st.write('Good')
   elif score>=20:
