@@ -9,7 +9,7 @@ womensteam=[]
 if age>=18:
   gender=st.text_input('Enter Your Gender..').lower()
   st.success('Eligible')
-  if gender == male:
+  if gender == 'male':
     # j=name.index(name)
     mensteam.append(name)
   else:
