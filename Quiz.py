@@ -28,61 +28,61 @@ if ans1 == 'c' or ans1=='C':
   st.snow()
 else:
   score-=2
-  st.write('Wrong')
+  st.balloons()
 if ans2=='d' or ans2=='D':
   score+=5
   st.snow()
 else:
   score-=2
-  st.write('wrong')
+  st.balloons()
 if ans3=='a' or ans3=='A':
   score+=5
   st.snow()
 else:
   score-=2
-  st.write('wrong')
+  st.balloons()
 if ans4=='c' or ans4=='C':
   score+=5
   st.snow()
 else:
   score-=2
-  st.write('wrong')
+  st.balloons()
 if ans5=='a' or ans5=='A':
   score +=5
   st.snow()
 else:
   score-=2
-  st.write('wrong')
+  st.balloons()
 if ans6=='a' or ans6=='A':
   score+=5
   st.snow()
 else:
   score-=2
-  st.write('wrong')
+  st.balloons()
 if ans7=='d' or ans7=='D':
   score+=5
   st.snow()
 else:
   score-=2
-  st.write('wrong')
+  st.balloons()
 if ans8=='c' or ans8=='C':
   score+=5
   st.snow()
 else:
   score-=2
-  st.write('wrong')
+  st.balloons()
 if ans9=='d' or ans9=='D':
   score+=5
   st.snow()
 else:
   score-=2
-  st.write('wrong')
+  st.balloons()
 if ans10=='b' or ans10=='B':
   score+=5
   st.snow()
 else:
   score-=2
-  st.write('wrong')
+  st.balloons()
 
 st.write('Total Marks:', score)
 if score>45:
