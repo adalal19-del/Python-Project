@@ -25,7 +25,7 @@ for i in range (11):
                 st.warning('Not Eligibile')
 else:
     st.warning('Incorrect Input')
-if lens(manseam)==11 and lens(womensteam)==11:
+if len(manseam)==11 and len(womensteam)==11:
         st.write('Select criteria complete for both mens and womens team')
 else:
         st.write('Not fulfill teh criteria and still awaiting both 11 and 11 team')
