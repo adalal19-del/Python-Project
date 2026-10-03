@@ -15,8 +15,8 @@ for i in range (5):
             mensteam.append(name[i])
         else:
             womensteam.append(name[i])
-else:
-    st.warning('Not Eligible')
+    else:
+        st.warning('Not Eligible')
 
 st.write('Men Team:', mensteam)
 st.write('Women Team:', womensteam)
