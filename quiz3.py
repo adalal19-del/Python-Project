@@ -1,29 +1,22 @@
-import streamlit as st
-
 st.write('Welcome to the Cricket Team Selection')
 
-age = st.number_input('Enter Your Age..', min_value=0)
+mensteam = []
+womensteam = []
 
-if age < 18:
+name = st.text_input('Enter Your Name..')
+age = st.number_input('Enter Your Age..')
+if age >= 18:
+    for i in range (5):
+    gender = st.text_input('Enter Your Gender..').lower()
+    st.success('Eligible')
+    i+=gender
+    if gender == 'male':
+        mensteam.append(name)
+    else:
+        gender == 'female':
+        womensteam.append(name)
+else:
     st.warning('Not Eligible')
-    st.stop()
 
-st.success('Eligible')
-
-men_team = []
-women_team = []
-
-st.subheader('Men Team')
-for i in range(5):
-    name = st.text_input(f'Enter Men Team Name {i + 1}..', key=f'men_{i}')
-    if name.strip():
-        men_team.append(name.strip())
-
-st.subheader('Women Team')
-for i in range(5):
-    name = st.text_input(f'Enter Women Team Name {i + 1}..', key=f'women_{i}')
-    if name.strip():
-        women_team.append(name.strip())
-
-st.write('Mens Team:', men_team)
-st.write('Womens Team:', women_team)
+st.write('Men Team:', mensteam)
+st.write('Women Team:', womensteam)
