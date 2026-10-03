@@ -13,9 +13,7 @@ if age>=18:
     # j=name.index(name)
     mensteam.append(name)
   else:
-    if gender == female:
-    # j=name.index(name)
-      womensteam.append(name)
+    womensteam.append(name)
 else:
   st.warning('Not Eligible')
 
