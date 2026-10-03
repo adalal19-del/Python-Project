@@ -23,66 +23,69 @@ st.write('Q10. Which is the highest mountain the world?\n\na.Nile Everest b.Moun
 ans10=st.text_input('Enter your choice for 10...')
 
 score=0
-if ans1 == 'c' or ans1=='C':
+if not ans1 or ans2 or ans3 or ans4 or ans5 or ans6 or ans7 or ans8 or ans9 or ans10:
+  st.warning('Please answer all question before finalizing the score')
+else:
+  if ans1 == 'c' or ans1=='C':
   score+=5
   st.snow()
-else:
-  score-=2
-  st.balloons()
-if ans2=='d' or ans2=='D':
-  score+=5
-  st.snow()
-else:
-  score-=2
-  st.balloons()
-if ans3=='a' or ans3=='A':
-  score+=5
-  st.snow()
-else:
-  score-=2
-  st.balloons()
-if ans4=='c' or ans4=='C':
-  score+=5
-  st.snow()
-else:
-  score-=2
-  st.balloons()
-if ans5=='a' or ans5=='A':
-  score +=5
-  st.snow()
-else:
-  score-=2
-  st.balloons()
-if ans6=='a' or ans6=='A':
-  score+=5
-  st.snow()
-else:
-  score-=2
-  st.balloons()
-if ans7=='d' or ans7=='D':
-  score+=5
-  st.snow()
-else:
-  score-=2
-  st.balloons()
-if ans8=='c' or ans8=='C':
-  score+=5
-  st.snow()
-else:
-  score-=2
-  st.balloons()
-if ans9=='d' or ans9=='D':
-  score+=5
-  st.snow()
-else:
-  score-=2
-  st.balloons()
-if ans10=='b' or ans10=='B':
-  score+=5
-  st.snow()
-else:
-  score-=2
-  st.balloons()
+  else:
+    score-=2
+    st.balloons()
+  if ans2=='d' or ans2=='D':
+    score+=5
+    st.snow()
+  else:
+    score-=2
+    st.balloons()
+  if ans3=='a' or ans3=='A':
+    score+=5
+    st.snow()
+  else:
+    score-=2
+    st.balloons()
+  if ans4=='c' or ans4=='C':
+    score+=5
+    st.snow()
+  else:
+    score-=2
+    st.balloons()
+  if ans5=='a' or ans5=='A':
+    score +=5
+    st.snow()
+  else:
+    score-=2
+    st.balloons()
+  if ans6=='a' or ans6=='A':
+    score+=5
+    st.snow()
+  else:
+    score-=2
+    st.balloons()
+  if ans7=='d' or ans7=='D':
+    score+=5
+    st.snow()
+  else:
+    score-=2
+    st.balloons()
+  if ans8=='c' or ans8=='C':
+    score+=5
+    st.snow()
+  else:
+    score-=2
+    st.balloons()
+  if ans9=='d' or ans9=='D':
+    score+=5
+    st.snow()
+  else:
+    score-=2
+    st.balloons()
+  if ans10=='b' or ans10=='B':
+    score+=5
+    st.snow()
+  else:
+    score-=2
+    st.balloons()
 
 st.write('Total Marks:', score)
 if score>45:
