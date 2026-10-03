@@ -8,7 +8,7 @@ gender = st.text_input('Enter Your Gender..').lower()
 if gender == 'male':
     for i in range (10):
         name = st.text_input('Enter Your Name..', key=i)
-        age = st.number_input('Enter Your Age..', key=i+5)
+        age = st.number_input('Enter Your Age..', key=i+11)
     if age >= 18:
         st.success('Eligible')
         mensteam.append(name)
@@ -18,7 +18,7 @@ if gender == 'male':
 elif gender=='female':
     for i in range (10):
         name = st.text_input('Enter Your Name..', key=i)
-        age = st.number_input('Enter Your Age..', key=i+5)
+        age = st.number_input('Enter Your Age..', key=i+11)
     if age >= 18:
         st.success('Eligible')
         womensteam.append(name)
