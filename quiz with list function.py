@@ -13,16 +13,23 @@ score=0
 Ques_Num=0
 choice = st.sidebar.button('reset')
 if choice == 0:
-         for option in options(Ques_Num):
-                  # st.write(Q[i])
-                  st.write(option)
-                  ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
-                  user_answer.append(ans)
-                  if (user_answer(Ques_Num)==Correct_Answer(Ques_Num):
+         for question in Q:
+                  st.write('===================')
+                  st.write(question)
+                  for option in options(Ques_Num):
+                           st.write(option)
+                           ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
+                           user_answer.append(ans)
+                           if (user_answer(Ques_Num)==Correct_Answer(Ques_Num):
                            score+=5
                            st.balloons()
                   else:
                            score=score
+                           Ques_Num+=1
+         else:
+                  if score ==5:
+                           st.write('You have won the contest')
+                           st.balloons()         
          st.write(user_answer)
          st.write('Total Score:',score)
 else:
