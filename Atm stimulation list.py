@@ -11,8 +11,8 @@ if choice=='1':
   st.write('Welcome to Saving Account')
   names=st.text_input('Enter Your Name ..',1)
   pins=st.number_input('Enter Your Pin..',2)
-  if name in names:
-    j=names.index(name)
+  if names in name:
+    j=name.index(names)
     if pin==pins[j]:
       st.write('1. Deposit\n2.Balance in Account\n3.Withdrawal\n4.Exit')
       in2=st.write('Enter Your Choice...',3)
