@@ -19,7 +19,7 @@ if choice == 0:
                   st.write(question)
                   for option in Options[Ques_Num]:
                            st.write(option)
-                  ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
+                  ans=st.text_input('Enter your choice...', 'key = i',placeholder = 'enter to confirm').lower()
                   user_answer.append(ans)
                   if (user_answer[Ques_Num]==Correct_Answer[Ques_Num]):
                            score+=5
