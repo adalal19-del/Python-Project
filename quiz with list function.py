@@ -10,7 +10,7 @@ Options=['a.B    b.Y\nc.A    d.E',
 Correct_Answer=['c','d','a','c']
 user_answer=[]
 score=0
-choice = st.sidebar.button(reset the button)
+choice = st.sidebar.button(reset)
 for i in range(len(Q)):
   st.write(Q[i])
   st.write(Options[i])
