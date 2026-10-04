@@ -1,10 +1,13 @@
 import steamlit as st
-st.write('....Welcome to Quiz....')
+st.write('-------------------------------')
+st.write('||....Welcome to Quiz....||')
+st.write('-------------------------------')
 Q=['Q1. WHat is the first alphabet of English?','Q2. Who is theNational Animal of INdia?','Q3. Who is the National Bird of India?','Q4. HOw many COntinents are there in world?']
 Options=['a.B    b.Y\nc.A    d.E','a.Bear   b.Giraffe\nc.Lion   d.Tiger','a.Peacock   b.Nightingale\nc.Hen     d.Crow','a.4    b.12\nc.7    d.9']
 Correct_Answer=['c','d','a','c']
 user_answer=[]
 score=0
+
 for i in range(len(Q)):
   st.write(Q[i])
   st.write(Options[i])
@@ -17,7 +20,6 @@ for i in range(len(Q)):
     score-=2
     st.write('wrong')
 else:
-  st.write(user_answer)
   user_answer.clear()
   score=0
   st.write('\nQuiz Completed\n')
