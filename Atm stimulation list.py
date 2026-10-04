@@ -10,7 +10,7 @@ choice=st.text_input('Enter your choice key..', key4)
 if choice=='1':
   st.write('Welcome to Saving Account')
   name=st.text_input('Enter Your Name ..', key1)
-  pins=st.number_input('Enter Your Pin..' key2)
+  pins=st.number_input('Enter Your Pin..', key2)
   if name in names:
     j=names.index(name)
     if pin==pins[j]:
