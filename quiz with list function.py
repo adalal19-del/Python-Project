@@ -1,12 +1,12 @@
 import streamlit as st
-st.write('++++++++++++++++++++++++++++')
+st.write('============================')
 st.write('||....Welcome to Quiz....||')
-st.write('++++++++++++++++++++++++++++')
+st.write('===========================')
 Q=['Q1. WHat is the first alphabet of English?','Q2. Who is theNational Animal of INdia?','Q3. Who is the National Bird of India?','Q4. HOw many COntinents are there in world?']
-Options=['a.B    b.Y\nc.A    d.E',
-         'a.Bear   b.Giraffe\nc.Lion   d.Tiger',
-         'a.Peacock   b.Nightingale',
-         'c.Hen     d.Crow','a.4    b.12\nc.7    d.9']
+Options=['a.B    b.Y c.A    d.E',
+         'a.Bear   b.Giraffe c.Lion   d.Tiger',
+         'a.Peacock   b.Nightingale c.Hen     d.Crow',
+         'a.4    b.12 c.7    d.9']
 Correct_Answer=['c','d','a','c']
 user_answer=[]
 score=0
@@ -20,8 +20,7 @@ for i in range(len(Q)):
     score=+5
     st.snow()
   else:
-    score-=2
-    st.write('wrong')
+    score+=1
 else:
   user_answer.clear()
   score=0
