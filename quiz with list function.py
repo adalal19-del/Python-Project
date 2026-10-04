@@ -11,17 +11,18 @@ Correct_Answer=['c','d','a','c']
 user_answer=[]
 score=0
 choice = st.sidebar.button('reset')
-for i in range(len(Q)):
-  st.write(Q[i])
-  st.write(Options[i])
-  ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
-  user_answer.append(ans)
-  if Correct_Answer[i]==ans:
-           score+=5
-           st.balloons()
-  else:
-           score=score
-
+if choice == 0:
+         for i in range(len(Q)):
+                  st.write(Q[i])
+                  st.write(Options[i])
+                  ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
+                  user_answer.append(ans)
+                  if Correct_Answer[i]==ans:
+                           score+=5
+                           st.balloons()
+                  else:
+                           score=score
+         st.write(user_answer)
 else:
          st.write(user_answer)
          user_answer.clear()
