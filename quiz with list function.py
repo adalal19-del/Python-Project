@@ -7,7 +7,7 @@ Options=['a.B    b.Y\nc.A    d.E','a.Bear   b.Giraffe\nc.Lion   d.Tiger','a.Peac
 Correct_Answer=['c','d','a','c']
 user_answer=[]
 score=0
-
+choice = st.sidebar.button()
 for i in range(len(Q)):
   st.write(Q[i])
   st.write(Options[i])
