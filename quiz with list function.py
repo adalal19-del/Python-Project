@@ -10,14 +10,15 @@ Options=['a.B \nb.Y \nc.A \nd.E',
 Correct_Answer=['c','d','a','c']
 user_answer=[]
 score=0
+Ques_Num=0
 choice = st.sidebar.button('reset')
 if choice == 0:
-         for i in range(len(Q)):
+         for option in options(Ques_Num):
                   # st.write(Q[i])
-                  st.write(Options[i])
+                  st.write(option)
                   ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
                   user_answer.append(ans)
-                  if (user_answer(lens(Q))==Correct_answer(len(Q)):
+                  if (user_answer(Ques_Num)==Correct_answer(Ques_Num):
                            score+=5
                            st.balloons()
                   else:
