@@ -13,11 +13,11 @@ score=0
 choice = st.sidebar.button('reset')
 if choice == 0:
          for i in range(len(Q)):
-                  st.write(Q[i])
-                  st.write(Options[i],'\n')
+                  # st.write(Q[i])
+                  st.write(Options[i])
                   ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
                   user_answer.append(ans)
-                  if Correct_Answer[i]==ans:
+                  if (user_answer[Q]==user_answer[Q]:
                            score+=5
                            st.balloons()
                   else:
