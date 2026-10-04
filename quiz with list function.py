@@ -16,7 +16,9 @@ for i in range(len(Q)):
   else:
     score-=2
     st.write('wrong')
+else:
+  st.write(user_answer)
+  user_answer.clear()
   st.write('\nYour total score=",score\n')
   st.write('\nQuiz Completed\n')
-  st.write('\nThank you for participate in the quiz contest\n')
-  
+  st.write('\nThank you for participate in the quiz contest\n') 
