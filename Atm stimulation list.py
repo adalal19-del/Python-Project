@@ -9,7 +9,7 @@ st.write('\n1.Saving Account\n2.fd_rd')
 choice=st.text_input('Enter your choice key..',4)
 if choice=='1':
   st.write('Welcome to Saving Account')
-  name=st.text_input('Enter Your Name ..',1)
+  names=st.text_input('Enter Your Name ..',1)
   pins=st.number_input('Enter Your Pin..',2)
   if name in names:
     j=names.index(name)
