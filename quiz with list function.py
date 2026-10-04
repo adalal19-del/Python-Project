@@ -17,7 +17,7 @@ if choice == 0:
                   st.write(Options[i])
                   ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
                   user_answer.append(ans)
-                  if (user_answer[Q]==user_answer[Q]:
+                  if (user_answer(lens(Q))==Correct_answer(len(Q)):
                            score+=5
                            st.balloons()
                   else:
