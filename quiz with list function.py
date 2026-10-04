@@ -18,14 +18,14 @@ if choice == 0:
                   st.write(question)
                   for option in options(Ques_Num):
                            st.write(option)
-                           ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
-                           user_answer.append(ans)
-                           if (user_answer[Ques_Num]==Correct_Answer[Ques_Num]:
+                  ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
+                  user_answer.append(ans)
+                  if (user_answer[Ques_Num]==Correct_Answer[Ques_Num]:
                            score+=5
                            st.balloons()
                   else:
                            score=score
-                           Ques_Num+=1
+                  Ques_Num+=1
          else:
                   if score ==5:
                            st.write('You have won the contest')
