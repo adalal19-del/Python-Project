@@ -23,6 +23,7 @@ if choice == 0:
                   else:
                            score=score
          st.write(user_answer)
+         st.write('Total Score:',score)
 else:
          st.write(user_answer)
          user_answer.clear()
