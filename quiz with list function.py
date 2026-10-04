@@ -14,7 +14,7 @@ choice = st.sidebar.button('reset')
 if choice == 0:
          for i in range(len(Q)):
                   st.write(Q[i])
-                  st.write(Options[i])
+                  st.write(Options[i],'\n')
                   ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
                   user_answer.append(ans)
                   if Correct_Answer[i]==ans:
