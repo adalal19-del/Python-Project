@@ -14,7 +14,7 @@ choice = st.sidebar.button('reset')
 for i in range(len(Q)):
   st.write(Q[i])
   st.write(Options[i])
-  ans=st.text_input('Enter your choice...').lower()
+  ans=st.text_input('Enter your choice...',key = i,placeholder = 'enter to confirm').lower()
   user_answer.append(ans)
   if Correct_Answer[i]==ans:
            score+=5
