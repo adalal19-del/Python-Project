@@ -21,7 +21,7 @@ for i in range(len(Q)):
            st.balloons()
   else:
            score=score
-st.write(user_answer)         
+
 else:
          st.write(user_answer)
          user_answer.clear()
