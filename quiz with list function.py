@@ -17,12 +17,13 @@ for i in range(len(Q)):
   ans=st.text_input('Enter your choice...').lower()
   user_answer.append(ans)
   if Correct_Answer[i]==ans:
-    score=+5
-    st.snow()
+           score+=5
+           st.balloons()
   else:
-    score+=1
+           score=score
+           user_answer.clear()
 else:
-  user_answer.clear()
-  score=0
-  st.write('\nQuiz Completed\n')
-  st.write('\nThank you for participate in the quiz contest\n') 
+         user_answer.clear()
+         score=0
+         st.write('\nQuiz Completed\n')
+         st.write('\nThank you for participate in the quiz contest\n') 
