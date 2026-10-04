@@ -10,7 +10,7 @@ Options=['a.B    b.Y c.A    d.E',
 Correct_Answer=['c','d','a','c']
 user_answer=[]
 score=0
-choice = st.sidebar.button(reset)
+choice = st.sidebar.button('reset')
 for i in range(len(Q)):
   st.write(Q[i])
   st.write(Options[i])
@@ -23,6 +23,7 @@ for i in range(len(Q)):
            score=score
            user_answer.clear()
 else:
+         st.write(user_answer)
          user_answer.clear()
          score=0
          st.write('\nQuiz Completed\n')
