@@ -17,8 +17,8 @@ if choice == 0:
          for question in Q:
                   st.write('===================')
                   st.write(question)
-                  for option in Options(question):
-                           st.write(option)
+         for option in Options[question]:
+                  st.write(option)
                   ans=st.text_input('Enter your choice...', key = question, placeholder = 'enter to confirm').lower()
                   user_answer.append(ans)
                   if (user_answer[Ques_Num]==Correct_Answer[Ques_Num]):
