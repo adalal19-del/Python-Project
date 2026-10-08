@@ -19,6 +19,7 @@ if choice == 0:
                   st.write(Options[i])
                   ans=st.text_input('Enter your choice...', key = 'question_,' +str(i),placeholder = 'Enter a, b, c, d').lower()
                   user_answer.append(ans)
+                  st.write('===================')
                   if ans==Correct_Answer[i]:
                            score+=5
                   else:
