@@ -14,14 +14,12 @@ Ques_Num=0
 st.sidebar.markdown('Quiz menu...')
 choice = st.sidebar.button('reset')
 if choice == 0:
-         for question in Q:
-                  st.write('===================')
-                  st.write(question)
-                  for option in Options[question]:
-                           st.write(option)
+         for i in range (len(Q)):
+                  st.write(Q[i])
+                  st.write(Options[i])
                   ans=st.text_input('Enter your choice...', key = question, placeholder = 'enter to confirm').lower()
                   user_answer.append(ans)
-                  if (user_answer[Ques_Num]==Correct_Answer[Ques_Num]):
+                  if ans=Correct_Answer[i]:
                            score+=5
                   else:
                            score=score
