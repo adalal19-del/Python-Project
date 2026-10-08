@@ -25,9 +25,9 @@ if choice == 0:
                   else:
                            score=score
                   Ques_Num+=1
-                  if score ==5:
-                           st.write('You have won the contest')
-                           st.balloons()         
+         if score ==5:
+                  st.write('You have won the contest')
+                  st.balloons()         
          st.write(user_answer)
          st.write('Total Score:',score)
          if score==20:
