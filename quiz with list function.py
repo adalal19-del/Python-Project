@@ -29,9 +29,13 @@ if choice == 0:
                   if score ==5:
                            st.write('You have won the contest')
                            st.balloons()         
-         st.write('===================')
          st.write(user_answer)
          st.write('Total Score:',score)
+         if score==20:
+                  st.write('You have done an excellent job')
+                  st.balloons()
+         elif score>=10:
+                  st.write('Better Luck Next Time')
 else:
          st.write(user_answer)
          user_answer.clear()
