@@ -25,7 +25,6 @@ if choice == 0:
                   else:
                            score=score
                   Ques_Num+=1
-         else:
                   if score ==5:
                            st.write('You have won the contest')
                            st.balloons()         
