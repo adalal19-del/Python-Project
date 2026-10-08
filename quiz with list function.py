@@ -28,6 +28,7 @@ if choice == 0:
                   if score ==5:
                            st.write('You have won the contest')
                            st.balloons()         
+         st.write('===================')
          st.write(user_answer)
          st.write('Total Score:',score)
 else:
