@@ -5,7 +5,7 @@ bal=[100000,200000]
 pin=[1234,12345]
 fd_rd=[200000,300000]
 st.write('****Welcome to ATM Stimulation****')
-st.write('\n1.Saving Account\n2.fd_rd')
+st.write('1.Saving Account,2.fd_rd')
 choice=st.text_input('Enter your choice key..', placeholder = 'Enter 1, 2')
 choice = st.sidebar.button('Reset')
 if choice=='1':
