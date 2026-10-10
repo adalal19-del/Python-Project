@@ -37,4 +37,6 @@ if choice=='1':
       st.write('Invalid input')
 else:
   st.write('Invalid entry')
+  st.write('Thank you for using the ATM stimulation')
+  st.write('Hope You Have a Good Day')
         
