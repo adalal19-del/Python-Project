@@ -7,6 +7,7 @@ fd_rd=[200000,300000]
 st.write('****Welcome to ATM Stimulation****')
 st.write('\n1.Saving Account\n2.fd_rd')
 choice=st.text_input('Enter your choice key..', placeholder = 'Enter 1, 2')
+choice = st.sidebar.button('reset')
 if choice=='1':
   st.write('Welcome to Saving Account')
   names=st.text_input('Enter Your Name ..',1)
