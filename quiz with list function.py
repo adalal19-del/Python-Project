@@ -50,3 +50,5 @@ def options():
                   print('Thank you for testing your quiz')
 
 quiz()
+options()
+
