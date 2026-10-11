@@ -42,10 +42,11 @@ def quiz():
                   score=0
                   st.write('\nQuiz Completed\n')
                   st.write('\nThank you for participate in the quiz contest\n')
-         quiz()
 def options():
          ch=input('Enter Your Choice to test for quize y or n....').lower()
          if ch=='y':
                   quiz()
          else:
                   print('Thank you for testing your quiz')
+
+quiz()
