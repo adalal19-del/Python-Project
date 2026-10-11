@@ -37,7 +37,7 @@ def quiz():
                   elif score >=10:
                            st.write('Better Luck Next Time')
                   else:
-                           st.write('Test Again')
+                           st.write('Fail')
                   
 quiz()                           
          else:
