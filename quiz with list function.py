@@ -13,35 +13,34 @@ score=0
 Ques_Num=0
 st.sidebar.markdown('Quiz menu...')
 choice = st.sidebar.button('reset')
-def quiz():
-         if choice == 0:
-                  for i in range (len(Q)):
-                           st.write(Q[i])
-                           st.write(Options[i])
-                           ans=st.text_input('Enter your choice...', key =[i]).lower()
-                           user_answer.append(ans)
-                           st.write('===================')
-                           if ans==Correct_Answer[i]:
-                                    score+=5
-                           else:
-                                    score=score
-                  Ques_Num+=1
-                  if score ==5:
-                           st.write('You have won the contest')
-                           st.balloons()         
-                  st.write(user_answer)
-                  st.write('Total Score:',score)
-                  if score==20:
-                           st.write('You have done an excellent job')
-                           st.balloons()
-                  elif score >=10:
-                           st.write('Better Luck Next Time')
-         else:
-                  st.write(user_answer)
-                  user_answer.clear()
-                  score=0
-                  st.write('\nQuiz Completed\n')
-                  st.write('\nThank you for participate in the quiz contest\n')
+if choice == 0:
+         for i in range (len(Q)):
+                  st.write(Q[i])
+                  st.write(Options[i])
+                  ans=st.text_input('Enter your choice...', key =[i]).lower()
+                  user_answer.append(ans)
+                  st.write('===================')
+                  if ans==Correct_Answer[i]:
+                           score+=5
+                  else:
+                           score=score
+         Ques_Num+=1
+         if score ==5:
+                  st.write('You have won the contest')
+                  st.balloons()         
+         st.write(user_answer)
+         st.write('Total Score:',score)
+         if score==20:
+                  st.write('You have done an excellent job')
+                  st.balloons()
+         elif score >=10:
+                  st.write('Better Luck Next Time')
+else:
+         st.write(user_answer)
+         user_answer.clear()
+         score=0
+         st.write('\nQuiz Completed\n')
+         st.write('\nThank you for participate in the quiz contest\n')
 def options():
          ch=input('Enter Your Choice to test for quize y or n....').lower()
          if ch=='y':
