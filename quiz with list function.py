@@ -36,12 +36,12 @@ def quiz():
                   st.balloons()
          elif score >=10:
                   st.write('Better Luck Next Time')
-else:
-         st.write(user_answer)
-         user_answer.clear()
-         score=0
-         st.write('\nQuiz Completed\n')
-         st.write('\nThank you for participate in the quiz contest\n')
+         else:
+                  st.write(user_answer)
+                  user_answer.clear()
+                  score=0
+                  st.write('\nQuiz Completed\n')
+                  st.write('\nThank you for participate in the quiz contest\n')
 quiz()
 def options():
          ch=input('Enter Your Choice to test for quize y or n....').lower()
